@@ -31,7 +31,22 @@ Result on [the sample receipt](examples/receipt.jpg): shop, date, total (€24.2
 - Add, edit, delete and filter expenses (REST API + `fetch`, no page reloads)
 - Dashboard cards and Chart.js charts by category and month
 - Server-side validation, parameterized SQL and XSS-safe rendering
+- Modern SaaS design with dark and light themes (theme toggle, remembered in the browser), glass cards and smooth GSAP animations: count-up numbers, a "thinking" shimmer while the AI works and a staggered reveal of its results. Everything still works without animations.
 - Responsive layout
+
+## Screenshots
+
+AI insights and a scanned receipt (fields filled by AI, waiting for you to click Add):
+
+![AI insights and receipt scan](examples/screenshot-ai.png)
+
+Light theme:
+
+![Light theme](examples/screenshot-light.png)
+
+Phone layout (390px):
+
+<img src="examples/screenshot-mobile.png" alt="Phone layout" width="300">
 
 ## Tech stack
 
